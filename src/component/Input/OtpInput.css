@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+}
+
+.otp-input-wrapper-body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lable-text-input {
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #000;
+}
+
+.dark-text {
+    color: #fff;
+}
+
+.otp-input-container {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 5px;
+    height: 50px;
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 0.1rem green;
+    transition: all 0.3s ease-in-out;
+
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    color: #000;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.dark-mode input {
+    background-color: #5a5a5a;
+    color: #fff !important;
+
+}
+
+.dark-mode input::placeholder {
+    color: #fff !important;
+}
+
+.shake-animation {
+    animation: shakeAnimation 0.5s ease-in-out !important;
+    box-shadow: 0 0 0.35rem #ff0000;
+}
+
+@keyframes shakeAnimation {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-4px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(4px);
+    }
+}

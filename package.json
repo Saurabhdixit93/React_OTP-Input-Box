@@ -1,6 +1,6 @@
 {
-  "name": "react-otp-input-box",
-  "version": "1.0.0",
+  "name": "nextjs-otp-field-input",
+  "version": "1.6.0",
   "main": "OtpInput.jsx",
   "files": [
     "OtpInput.jsx",
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "set GENERATE_SOURCEMAP=false && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -44,7 +44,8 @@
   "keywords": [
     "react-otp-input",
     "otp-input",
-    "input-otp,phone-otp-input"
+    "input-otp,phone-otp-input",
+    "nextjs-otp-field-input"
   ],
   "author": "Saurabh Dixit",
   "license": "MIT",

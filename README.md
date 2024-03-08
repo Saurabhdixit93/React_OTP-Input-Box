@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@saurabhdixit93/react-otp-field)](https://www.npmjs.com/package/@saurabhdixit93/react-otp-field)
 [![npm downloads](https://img.shields.io/npm/dm/@saurabhdixit93/react-otp-field)](https://www.npmjs.com/package/@saurabhdixit93/react-otp-field)
-[![GitHub license](https://img.shields.io/github/license/saurabhdixit93/react-otp-input-box)](https://github.com/saurabhdixit93/react-otp-input-box/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/saurabhdixit93/React_OTP-Input-Box)](https://github.com/saurabhdixit93/React_OTP-Input-Box/blob/main/LICENSE)
 
 A versatile React component for handling One-Time Password (OTP) input with seamless customization options.
 

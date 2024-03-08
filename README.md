@@ -1,7 +1,7 @@
 # OtpInput React Component
 
-[![npm version](https://img.shields.io/npm/v/@saurabhdixit99/react-otp-field)](https://www.npmjs.com/package/react-otp-filed)
-[![npm downloads](https://img.shields.io/npm/dm/@saurabhdixit99/react-otp-field)](https://www.npmjs.com/package/react-otp-filed)
+[![npm version](https://img.shields.io/npm/v/@saurabhdixit99/nextjs-otp-field-input)](https://www.npmjs.com/package/nextjs-otp-field-input)
+[![npm downloads](https://img.shields.io/npm/dm/@saurabhdixit99/nextjs-otp-field-input)](https://www.npmjs.com/package/nextjs-otp-field-input)
 [![GitHub license](https://img.shields.io/github/license/saurabhdixit93/React_OTP-Input-Box)](https://github.com/saurabhdixit93/React_OTP-Input-Box/blob/main/LICENSE)
 
 A versatile React component for handling One-Time Password (OTP) input with seamless customization options.
@@ -9,13 +9,13 @@ A versatile React component for handling One-Time Password (OTP) input with seam
 ## Installation
 
 ```bash
-npm install react-otp-field
+npm install nextjs-otp-field-input
 ```
 
 ## Usage
 
 ```jsx
-import OtpInput from "react-otp-field";
+import OtpInput from "nextjs-otp-field-input";
 
 function App() {
   const defaultStyle = {
